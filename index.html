@@ -4,6 +4,19 @@
     <!-- Kerrotaan IE:lle, ettei käytä compatibility-tilaa -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <!-- Ladataan kustomoidut fontit ennen mitään muuta -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
     <!-- .ico fallback (sisältää useita kokoja) -->
     <link rel="icon" href="img/portfolio_logo64.ico" type="image/x-icon" sizes="16x16, 32x32, 48x48, 64x64">
 
@@ -29,27 +42,29 @@
     <title>Portfolio: Tuomas Hyötyniemi</title>
 
     <meta name="description" content="Kuvausteksti">
-    <meta name="keywords" content="C++, C, Python, HTML, CSS, CV, Portfolio, Tuomas, Hyötyniemi">
+    <meta name="keywords" content="C++, C, Python, HTML, CSS, Ansioluettelo, CV, Portfolio, Tuomas, Hyötyniemi">
     <meta name="author" content="Tuomas Hyötyniemi">
     
     <!-- Open Graph Facebookille, LinkedInille, jne. -->
-    <meta property="og:title" content="Portfolio">
-    <meta property="og:description" content="Henkilökohtainen portfolio ja CV">
+    <meta property="og:title" content="Tuomas Hyötyniemi: Portfolio">
+    <meta property="og:description" content="Henkilökohtainen ansioluettelo ja CV">
     <meta property="og:image" content="https://nurjakulkuri.github.io/portfolio/img/og-image.png">
     <meta property="og:image:alt" content="Henkilökohtainen logo">
     <meta property="og:url" content="https://nurjakulkuri.github.io/portfolio">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="fi_FI">
-    <meta property="og:image:width" content="1024">
-    <meta property="og:image:height" content="1024">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
 
     <!-- Twitter-kortti -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Portfolio">
-    <meta name="twitter:description" content="Henkilökohtainen portfolio ja CV">
+    <meta name="twitter:title" content="Tuomas Hyötyniemi: Portfolio">
+    <meta name="twitter:description" content="Henkilökohtainen ansioluettelo ja CV">
     <meta name="twitter:image" content="https://nurjakulkuri.github.io/portfolio/img/og-image.png">
     <meta name="twitter:image:alt" content="Henkilökohtainen logo">
     <meta name="twitter:site" content="@nurjakulkuri">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
 
     <!-- CSS-tyylit -->
     <link rel="stylesheet" type="text/css" href="default.css">
@@ -57,13 +72,74 @@
     <!-- Ladataan JavaScript vasta kun sivu on muuten ladattu  -->
     <script src="main.js" type="text/javascript" defer></script>
 
+    <noscript>
+        <meta http-equiv="refresh" content="0;url=nojs.index.html">
+    </noscript>
+
     <!-- SVG kuvake skaalautuvuutta varten -->
     <!-- <link rel="alternate icon" href="img/portfolio_logo.svg" sizes="any" type="image/svg+xml"> -->
-
 
 </head>
 
 <body>
+
+<div id="koko"></div>
+
+<div>
+<header><h1>Tervetuloa!</h1></header>
+<nav>Navigaatio</nav>
+<main>
+    <img id="logo" src="img/portfolio_logo64.png" alt="Portfolion logo; TH ympyrässä, 1 ja 0 ympäröimänä" title="Portfolion logo">
+    <h2>Missä luovuus ja logiikka kohtaavat!</h2>
+
+    <img id="profile" src="img/profile.png" alt="Profiilikuva" title="Mies itse">
+
+    <p>Täällä jokainen idea löytää muotonsa, ja intohimo ohjelmointiin herää
+    eloon rivikerrallaan. Olen Tuomas &mdash; tietojenkäsittelyn opiskelija ja
+    ohjelmoinnin intohimoinen taitaja <a href="https://www.haaga-helia.fi" target="_blank" rel="external no-referrer">Haaga-Helian</a> ammattikorkeakoulusta. C++ on
+    minulle enemmän kuin vain ohjelmointikieli &mdash; se on kaunis yhdistelmä
+    tehokkuutta, estetiikkaa ja loputonta potentiaalia. Rakastan syventyä sen
+    maailmaan, jossa voin toteuttaa tehokkaita ja optimoituja ratkaisuja, jotka
+    ovat yhtä aikaa elegantteja ja tarkkaan harkittuja.</p>
+    
+    <p>Vaikka sydämeni sykkii plusplussalle, en pelkää tarttua uusiin
+    haasteisiin. Python ja JavaScript ovat kielet, joiden joustavuus ja
+    monipuolisuus vievät minut mukanaan yhä uusiin suuntiin. Olen myös
+    työskennellyt PHP, Javan ja SQL parissa, laajentaen osaamistani ja löytämällä
+    uusia tapoja ratkaista ongelmia ja rakentaa innovatiivisia ratkaisuja.</p>
+    
+    <p>Ohjelmoinnin maailma avautui minulle jo lapsena, kun aloin koodata
+    Commodore 64:lla. Tämä varhainen kokemus sytytti palon koodaamiseen, joka on
+    kulkenut mukana koko elämäni. Lisäksi videopeleillä on aina ollut erityinen
+    paikka sydämessäni, ja ne ovat vaikuttaneet vahvasti tapaani ajatella
+    ongelmanratkaisua ja luovuutta &mdash; inspiroiden minua etsimään yhä parempia
+    tapoja koodata ja luoda omia interaktiivisia kokemuksia.</p>
+    
+    <p>Ennen kuin lähdin ohjelmoinnin maailmaan ammattimaisesti, työskentelin
+    pitkään ravintola-alalla, suurimman osan ajasta vuoropäällikön asemassa.
+    Tämän kokemuksen ansiosta olen oppinut tiimityöskentelyn, johtamisen ja
+    paineensietokyvyn merkityksen &mdash; taidot, jotka auttavat minua myös
+    ohjelmoinnissa ja projektityöskentelyssä.</p>
+
+    <p>Vaikka sydämeni sykkii plusplussalle, en pelkää tarttua uusiin
+    haasteisiin. Python ja JavaScript ovat kielet, joiden joustavuus ja
+    monipuolisuus vievät minut mukanaan yhä uusiin suuntiin. Olen myös
+    työskennellyt PHP:n, Javan ja SQL:n parissa, laajentaen osaamistani ja
+    löytämällä uusia tapoja ratkaista ongelmia ja rakentaa innovatiivisia
+    ratkaisuja.</p>
+
+    <p>Uskon vahvasti siihen, että ohjelmoinnissa estetiikka ja toimivuus
+    kulkevat käsi kädessä. Tavoitteeni on rakentaa ratkaisuja, jotka eivät
+    ainoastaan toimi, vaan inspiroivat ja ylittävät odotukset. Jokainen projekti
+    on minulle mahdollisuus oppia, luoda ja kasvaa &mdash; ja toivon, että
+    voimme tehdä sen yhdessä.</p>
+
+    <p><a target="_self">Ota yhteyttä</a> &mdash; luodaan yhdessä jotain, joka kestää aikaa ja jättää
+    jäljen. Täällä ideat muuttuvat todellisuudeksi, ja jokainen haaste on
+    mahdollisuus luoda jotain suurta!</p>
+</main>
+</div>
+
 </body>
 
 </html>
