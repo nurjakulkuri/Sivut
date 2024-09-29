@@ -1,0 +1,15 @@
+@media (max-width: 530px) {
+    :root {
+        --nav-item-font-size: 12pt;
+        --section-p-img-mul: 0.75;
+        --section-p-font-size: 14pt;
+    }
+}
+
+@media (max-width: 400px) {
+    :root {
+        --nav-item-font-size: 10pt;
+        --section-p-img-mul: 0.4;
+        --section-p-font-size: 12pt;
+    }
+}

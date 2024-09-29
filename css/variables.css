@@ -98,10 +98,12 @@
 
 /* Section: p img */
 
+    --section-p-img-mul: 1;
+
     --section-p-left-img-margin: 0.2em 0.5em 0 0;
     --section-p-right-img-margin: 0.2em 0 0 0.5em;
 
-    --section-p-img-width: 120px;
+    --section-p-img-width: calc(var(--section-p-img-mul) * 120px);
     --section-p-img-height: calc(var(--section-p-img-width) * (320/240));
 
     --section-p-img-border-width: var(--border-width);

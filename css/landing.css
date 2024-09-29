@@ -19,8 +19,13 @@ main p {
     font: var(--section-p-font);
 }
 
-main p.left { padding-right: calc(100% / 6); text-align: left; }
-main p.right { padding-left: calc(100% / 6); text-align: right; }
+main p.left { padding-right: calc(100% / 12); text-align: left; }
+main p.right { padding-left: calc(100% / 12); text-align: right; }
+
+#profile {
+    width: 180px;
+    height: calc(180px * (320/240));
+}
 
 main p img.left, main p img.right {
     width: var(--section-p-img-width);
@@ -31,8 +36,8 @@ main p img.left, main p img.right {
 }
 
 main p:last-of-type img {
-    width: 60px;
-    height: calc(60px * (320/240));
+    height: 60px;
+    width: calc(60px * (240/320));
 }
 
 main p img.left { margin: var(--section-p-left-img-margin); float: left; }
