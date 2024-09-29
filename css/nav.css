@@ -1,0 +1,38 @@
+#nav-vertical { display: none; }
+
+#nav-horizontal {
+    margin: var(--nav-h-margin);
+}
+
+#nav-horizontal ul a {
+    text-decoration: none;
+    
+}
+#nav-horizontal ul {
+    margin: 0; padding: 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    list-style: none;
+}
+
+#nav-horizontal ul li {
+    flex-grow: 1;
+
+    width: var(--nav-h-item-width);
+
+    background-color: var(--nav-item-background);
+    color: var(--nav-item-color);
+
+    font: var(--nav-item-font);
+    line-height: var(--nav-item-height);
+
+    text-wrap: nowrap;
+    text-overflow: clip;
+    text-align: center;
+
+    border: var(--nav-h-item-border);
+    border-radius: var(--nav-h-border-radius);
+}

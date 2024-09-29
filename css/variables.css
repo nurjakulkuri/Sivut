@@ -1,0 +1,129 @@
+:root {
+
+/* Common: */
+
+    --margin: 2pt;
+
+    --background-color: #bfb78c;
+    --canvas-color: #dfdabe;
+
+    --body-text-color: #000;
+
+    --body-text-font-weight: normal;
+    --body-text-font-size: 12pt;
+    --body-text-font-face: 'Roboto';
+    --body-text-font: var(--body-text-font-weight) var(--body-text-font-size) var(--body-text-font-face);
+
+    --border-width: 2pt;
+    --border-style: solid;
+    --border-color: #09170b;
+    --border: var(--border-width) var(--border-style) var(--border-color);
+    --border-radius: 10px;
+
+/* Topic: */
+
+    --topic-color: var(--body-text-color);
+    --topic-background: var(--canvas-color);
+    
+    --topic-margin: 1pt 1pt 1pt 1pt;
+    --topic-height: 2em;
+    
+    --topic-font-weight: lighter;
+    --topic-font-size: 42pt;
+    --topic-font-face: 'Anton';
+    --topic-font: var(--topic-font-weight) var(--topic-font-size) var(--topic-font-face);
+
+    --topic-border-width: var(--border-width);
+    --topic-border-style: var(--border-style);
+    --topic-border-color: var(--border-color);
+    --topic-border: var(--topic-border-width) var(--topic-border-style) var(--topic-border-color);
+    --topic-border-radius: var(--border-radius);
+
+/* Navigation: */
+
+    --nav-item-background: var(--canvas-color);
+    --nav-item-color: var(--body-text-color);
+
+    --nav-item-height: 3em;
+
+    --nav-item-font-weight: var(--body-text-font-weight);
+    --nav-item-font-size: 16pt;
+    --nav-item-font-face: var(--body-text-font-face);
+    --nav-item-font: var(--nav-item-font-weight) var(--nav-item-font-size) var(--nav-item-font-face);
+
+/* Navigation: horizontal */    
+
+    --nav-h-margin: 0 1pt;
+    --nav-h-item-width: calc(97vw / 3 - 0.3em);
+
+    --nav-h-item-border-width: var(--border-width);
+    --nav-h-item-border-style: var(--border-style);
+    --nav-h-item-border-color: var(--border-color);
+    --nav-h-item-border: var(--nav-h-item-border-width) var(--nav-h-item-border-style) var(--nav-h-item-border-color);
+    --nav-h-border-radius: var(--border-radius);
+
+/* Navigation: vertical */
+
+/* Landing page: */
+
+    --main-color: var(--body-text-color);
+    --main-background: var(--canvas-color);
+
+    --main-margin: 2pt 1pt;
+
+    --main-border-width: var(--border-width);
+    --main-border-style: var(--border-style);
+    --main-border-color: var(--border-color);
+    --main-border: var(--main-border-width) var(--main-border-style) var(--main-border-color);
+    --main-border-radius: var(--border-radius);
+
+/* Section: topic */
+
+    --section-topic-padding: 0 0.5em;
+
+    --section-topic-font-weight: bold;
+    --section-topic-font-size: 18pt;
+    --section-topic-font-face: 'Merriweather';
+    --section-topic-font: var(--section-topic-font-weight) var(--section-topic-font-size) var(--section-topic-font-face);
+
+/* Section: p */
+
+    --section-p-margin: 0 0 2.5em 0;
+    --section-p-padding: 0 0.5em;
+
+    --section-p-font-weight: normal;
+    --section-p-font-size: 16pt;
+    --section-p-font-face: var(--body-text-font-face);
+    --section-p-font: var(--section-p-font-weight) var(--section-p-font-size) var(--section-p-font-face);
+
+/* Section: p img */
+
+    --section-p-left-img-margin: 0.2em 0.5em 0 0;
+    --section-p-right-img-margin: 0.2em 0 0 0.5em;
+
+    --section-p-img-width: 120px;
+    --section-p-img-height: calc(var(--section-p-img-width) * (320/240));
+
+    --section-p-img-border-width: var(--border-width);
+    --section-p-img-border-style: var(--border-style);
+    --section-p-img-border-color: var(--border-color);
+    --section-p-img-border: var(--section-p-img-border-width) var(--section-p-img-border-style) var(--section-p-img-border-color);
+    --section-p-img-border-radius: var(--border-radius);
+
+/* Section: p a */
+
+    --section-p-a-font-weight: 500;
+    --section-p-a-font-size: 1.1em;
+    --section-p-a-font-face: var(--section-p-font-face);
+    --section-p-a-link: var(--section-p-a-font-weight) var(--section-p-a-font-size) var(--section-p-a-font-face);
+    --section-p-a-link-color: #1f3b24;
+    
+    --section-p-a-visited: var(--section-p-a-link);
+    --section-p-a-visited-color: var(--section-p-a-link-color);
+
+    --section-p-a-hover: var(--section-p-a-link);
+    --section-p-a-hover-color: #52803c;
+
+    --section-p-a-active: var(--section-p-a-link);
+    --section-p-a-active-color: var(--section-p-a-hover-color);
+}
