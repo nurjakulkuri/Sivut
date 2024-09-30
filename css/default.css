@@ -1,17 +1,4 @@
-html, body { margin: 0; background-color: var(--background-color); }
-#logo { display: none; }
-
-#page-topic {
-    margin: var(--topic-margin);
-
-    background-color: var(--topic-background);
-    color: var(--topic-color);
-    
-    font: var(--topic-font);
-    line-height: var(--topic-height);
-
-    text-align: center;
-
-    border: var(--topic-border);
-    border-radius: var(--topic-border-radius);
+html, body {
+    margin: 0;
+    background-color: var(--main-background);
 }

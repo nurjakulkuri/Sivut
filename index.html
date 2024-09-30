@@ -73,8 +73,7 @@
     <link rel="stylesheet" type="text/css" href="css/variables.css">
     <link rel="stylesheet" type="text/css" href="css/default.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
-    <link rel="stylesheet" type="text/css" href="css/landing.css">
-    <link rel="stylesheet" type="text/css" href="css/resposiveness.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
 
     <!-- Ladataan JavaScript vasta kun sivu on muuten ladattu  -->
     <script src="main.js" type="text/javascript" defer></script>
@@ -90,150 +89,19 @@
 
 <body>
 
-    <header>
-        <!-- Dropdown hampurilaisvalikko -->
-        <nav id="nav-vertical">
-            <div id="nav-hamburger" class="material-symbols-outlined">menu
-                <div class="nav-dropdown-bkg"></div>
-                <div class="nav-dropdown-bkg"></div>
-                <div class="nav-dropdown-bkg"></div>
-            </div>
+    <div id="nav-hamburger" class="material-symbols-outlined">menu
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
 
-            <div id="nav-dropdown" class="nav-dropdown">
-                <ul>
-                    <a href="#" target="_self"><li>Curriculum vitae</li></a>
-                    <a href="#" target="_self"><li>Referenssit</li></a>
-                    <a href="#" target="_self"><li>Ota yhteyttä!</li></a>
-                </ul>
-            </div>
-        </nav>
-
-        <!-- Sivun otsikko -->
-        <div id="page-topic">Tervetuloa</div>
-
-        <!-- Logo pienimmille viewporteille -->
-        <div id="logo"><img src="img/portfolio_logo120.png" alt="Portfolion logo; TH ympyrässä, 1 ja 0 ympäröimänä" title="Portfolion logo"></div>
-
-        <!-- Vaakavalikko -->
-        <nav id="nav-horizontal">
-            <ul>
-                <a href="#" target="_self"><li>CV</li></a>
-                <a href="#" target="_self"><li>Referenssit</li></a>
-                <a href="#" target="_self"><li>Ota yhteyttä!</li></a>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <h2>Missä luovuus ja logiikka kohtaavat!</h2>
-        <p style="text-align: justify;"><img id="profile" class="right" src="img/profile.png" alt="Profiilikuva" title="Mies itse">
-        Täällä jokainen idea löytää muotonsa, ja intohimo ohjelmointiin herää
-        eloon rivikerrallaan. Olen Tuomas &mdash; tietojenkäsittelyn opiskelija ja
-        ohjelmoinnin intohimoinen opiskelija <a href="https://www.haaga-helia.fi"
-        target="_blank" rel="external no-referrer">Haaga-Helian</a>
-        ammattikorkeakoulusta. C++ on minulle enemmän kuin vain ohjelmointikieli
-        &mdash; se on kaunis yhdistelmä tehokkuutta, estetiikkaa ja loputonta
-        potentiaalia. Rakastan syventyä sen maailmaan, jossa voin toteuttaa
-        tehokkaita ja optimoituja ratkaisuja, jotka ovat yhtä aikaa elegantteja
-        ja tarkkaan harkittuja.</p>
-
-        <p class="left"><img class="left" src="img/cpp.png" alt="An artistic and visually engaging
-        image dedicated to C++ programming. The design should include iconic
-        C++ elements like code snippets, syntax highlighting, and the C++ logo,
-        seamlessly integrated into a modern and dynamic composition. The image
-        should incorporate themes of programming, software development, and
-        technology, with a color palette inspired by C++, primarily featuring
-        blues, grays, and metallics. The visual elements should give a sense of
-        complexity, creativity, and innovation, suitable for an enthusiastic
-        C++ programmer or a tech-themed background." title="C++ <3">
-        Vaikka sydämeni sykkii plusplussalle, en pelkää tarttua uusiin
-        haasteisiin. Python ja JavaScript ovat kielet, joiden joustavuus ja
-        monipuolisuus vievät minut mukanaan yhä uusiin suuntiin. Olen myös
-        työskennellyt PHP, Javan ja SQL parissa, laajentaen osaamistani ja
-        löytämällä uusia tapoja ratkaista ongelmia ja rakentaa innovatiivisia
-        ratkaisuja.</p>
-
-        <p class="right"><img class="right" src="img/c64.png" alt="A nostalgic and artistic
-        tribute to the Commodore 64, highlighting its iconic design and
-        significance in computer history. The image should include elements like
-        the classic beige keyboard, retro-style pixel art, and references to
-        8-bit games or software that defined the era. The background should have
-        a vintage, warm color palette with blues, greens, and browns reminiscent
-        of old CRT monitors and early computing aesthetics. The composition
-        should evoke a sense of admiration for the Commodore 64's legacy,
-        capturing its influence on the world of technology and gaming."
-        title="C64"> Ohjelmoinnin maailma avautui minulle jo lapsena, kun aloin
-        koodata Commodore 64:lla. Tämä varhainen kokemus sytytti palon
-        koodaamiseen, joka on kulkenut mukana koko elämäni. Lisäksi
-        videopeleillä on aina ollut erityinen paikka sydämessäni, ja ne ovat
-        vaikuttaneet vahvasti tapaani ajatella ongelmanratkaisua ja luovuutta
-        &mdash; inspiroiden minua etsimään yhä parempia tapoja koodata ja luoda
-        omia interaktiivisia kokemuksia.</p>
-
-        <p class="left"><img class="left" src="img/pub.png" alt="An illustration capturing
-        the busy and dynamic work of a pub shift manager. The scene should show
-        the manager multitasking in a bustling pub environment, balancing tasks
-        like managing staff, taking orders, and handling the bar. The background
-        should feature elements like bartenders serving drinks, customers
-        chatting, and tables being cleaned, conveying a sense of motion and
-        activity. The lighting should be warm and lively, typical of a pub, with
-        a mix of amber, brown, and muted greens. The expression of the manager
-        should reflect focus, energy, and a hint of controlled chaos,
-        encapsulating the hectic but skillful nature of the job.">
-        Ennen kuin lähdin ohjelmoinnin maailmaan ammattimaisesti,
-        työskentelin pitkään ravintola-alalla, suurimman osan ajasta
-        vuoropäällikön asemassa. Tämän kokemuksen ansiosta olen oppinut
-        tiimityöskentelyn, johtamisen ja paineensietokyvyn merkityksen &mdash;
-        taidot, jotka auttavat minua myös ohjelmoinnissa ja
-        projektityöskentelyssä.</p>
-
-        <p class="right"><img class="right" src="img/languages.png" alt="An illustration that
-        features the logos and symbolic elements of Python, Perl, Java, PHP, and
-        SQL. The design should creatively blend the different programming
-        languages in a visually appealing composition, with each language
-        represented by its logo or iconic symbols, such as a snake for Python, a
-        coffee cup for Java, and an elephant for PHP. The background should be
-        dynamic and tech-themed, with abstract code lines, data patterns, and
-        digital motifs. The color palette should reflect the branding colors of
-        each language, offering a harmonious yet distinct representation of
-        Python, Perl, Java, PHP, and SQL together.">Vaikka sydämeni sykkii
-        plusplussalle, en pelkää tarttua uusiin haasteisiin. Python ja
-        JavaScript ovat kielet, joiden joustavuus ja monipuolisuus vievät minut
-        mukanaan yhä uusiin suuntiin. Olen myös työskennellyt PHP:n, Javan ja
-        SQL:n parissa, laajentaen osaamistani ja löytämällä uusia tapoja
-        ratkaista ongelmia ja rakentaa innovatiivisia ratkaisuja.</p>
-
-        <p class="left"><img class="left" src="img/aesthetic_code.png" alt="A visually
-        appealing representation of clean and elegant C++ code. The image should
-        show snippets of C++ code that are well-organized and easy to read,
-        using proper syntax highlighting with keywords, functions, and comments
-        in harmonious colors like blue, green, yellow, and white on a dark
-        background. The design should evoke the beauty of well-written code,
-        with clear indentation and structure, showcasing elements like classes,
-        loops, and functions. The overall feel should be that of a programmer's
-        workspace, emphasizing the aesthetics of clean coding and software
-        development in C++.">Uskon vahvasti siihen, että ohjelmoinnissa
-        estetiikka ja toimivuus kulkevat käsi kädessä. Tavoitteeni on rakentaa
-        ratkaisuja, jotka eivät ainoastaan toimi, vaan inspiroivat ja ylittävät
-        odotukset. Jokainen projekti on minulle mahdollisuus oppia, luoda ja
-        kasvaa &mdash; ja toivon, että voimme tehdä sen yhdessä.</p>
-
-        <p class="right"><img class="right" src="img/contact.png" alt="An illustration
-        representing the concept of communication and reaching out, with
-        elements like envelopes, chat bubbles, phone icons, or digital symbols
-        that imply messaging and connection. The design should be modern and
-        friendly, using warm and inviting colors such as blues, greens, and
-        yellows. The composition could include abstract elements like connecting
-        lines or waves that symbolize a network or digital connection, giving a
-        feeling of being approachable and open to contact. The overall theme
-        should convey an invitation to connect, suitable for a 'Contact Me'
-        section on a website."><a href target="_self">Ota yhteyttä</a> &mdash;
-        luodaan yhdessä jotain, joka kestää aikaa ja jättää jäljen. Täällä ideat
-        muuttuvat todellisuudeksi, ja jokainen haaste on mahdollisuus luoda
-        jotain suurta!
-        </p>
-    </main>
-
+    <nav id="nav-dropdown">
+        <ul>
+            <a href="#"><li>Curriculum vitae</li></a>
+            <a href="#"><li>Referenssit</li></a>
+            <a href="#"><li>Ota yhteyttä!</li></a>
+        </ul>
+    </nav>
 
 </body>
 
