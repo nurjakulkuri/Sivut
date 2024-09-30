@@ -5,12 +5,25 @@
 
     --body-font-face: 'Roboto';
 
+    --border-radius: 5px;
+
     --nav-hamburger-font-size: 42pt;
     --nav-font-size: 16pt;
     --page-title-font-size: 24pt;
 
-    --border-radius: 5px;
-
     --nav-dropdown-height: 64pt;
     --page-title-height: 64pt;
+
+    --about-padding: 0.5em;
+    --about-img-mul: 0.4;
+    --about-font-size: 14pt;
+    --about-h1-font-size: 20pt;
+    --about-h1-font-face: 'Merriweather';
+    --about-h2-font-size: calc(var(--about-font-size) * 1.05);
+
+    --about-a-size: calc(var(--about-font-size) * 1.1);
+    --about-a-link: #867d2c;
+    --about-a-hover: #a59b3f;
+    --about-a-visited: #09170b;
+    --about-a-active: #dacd61;
 }
