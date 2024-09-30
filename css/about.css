@@ -1,5 +1,4 @@
 #page-title div {
-    float: top;
     height: 1em;
     font: bold 12pt var(--body-font-face);
     line-height: 3.4em;
@@ -31,13 +30,12 @@ img.left { float: left; margin-right: calc(var(--padding)); }
 img.right { float: right; margin-left: calc(var(--padding)); }
 
 main h1 { font: bold var(--about-h1-font-size) var(--about-h1-font-face); }
-main h2 { font: normal var(--about-h2-font-size) var(--body-font-face); }
 main p { font: normal var(--about-font-size) var(--body-font-face); text-align: justify; }
 
 main a:link { font-weight: bold; font-size: calc(var(--about-a-size)); color: var(--about-a-link); text-decoration: none; }
-main a:hover { font-size: calc(var(--about-a-size)); color: var(--about-a-hover); text-decoration: underline; }
-main a:visited { font-size: calc(var(--about-a-size)); color: var(--about-a-visited); text-decoration: overline; }
-main a:active { font-size: calc(var(--about-a-size)); color: var(--about-a-active); }
+main a:hover { font-size: var(--about-a-size); color: var(--about-a-hover); text-decoration: underline; }
+main a:visited { font-size: var(--about-a-size); color: var(--about-a-visited); text-decoration: overline; }
+main a:active { font-size: var(--about-a-size); color: var(--about-a-active); }
 
 @media (min-width: 680px) {
     :root { --about-img-mul: 0.52; }

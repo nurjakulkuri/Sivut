@@ -4,8 +4,8 @@
 
     #nav-hamburger-container, #nav-hamburger, #nav-dropdown { box-sizing: border-box; }
     #nav-hamburger-container { position: relative; }
-
     #nav-hamburger.active { background-color: var(--nav-active-background); }
+
     #nav-hamburger {
         position: relative;
 
@@ -29,6 +29,8 @@
         z-index: 10;
     }
 
+    #nav-dropdown a { text-decoration: none; color: inherit; display: block; }
+    #nav-dropdown li:hover { background-color: var(--nav-horver); }
     #nav-dropdown.active { display: block; }
     #nav-dropdown {
         position: absolute;
@@ -53,8 +55,6 @@
         border-radius: 0 0 var(--border-radius) var(--border-radius);
     }
 
-    #nav-dropdown a { text-decoration: none; color: inherit; display: block; }
-    #nav-dropdown li:hover { background-color: var(--nav-horver); }
     #nav-dropdown li {
         font: bold calc(var(--nav-font-size)) var(--body-font-face);
         line-height: var(--nav-dropdown-height);
@@ -86,10 +86,9 @@
 
     #nav-hamburger-container { display: none; }
 
-    #nav-hmenu {
-        margin-top: var(--padding);
-        width: 100%;
-    }
+    #nav-hmenu { margin-top: var(--padding); width: 100%; }
+    #nav-hmenu a { text-decoration: none; color: inherit; display: block; }
+    #nav-hmenu li:hover { background-color: var(--nav-horver); }
 
     #nav-hmenu ul {
         margin: 0; padding: 0;
@@ -102,8 +101,6 @@
         gap: calc(var(--padding));
     }
 
-    #nav-hmenu a { text-decoration: none; color: inherit; display: block; }
-    #nav-hmenu li:hover { background-color: var(--nav-horver); }
     #nav-hmenu ul li {
         flex-grow: 1;
 
