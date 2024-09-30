@@ -2,3 +2,17 @@ html, body {
     margin: 0;
     background-color: var(--main-background);
 }
+
+#page-title {
+    font: normal calc(var(--page-title-font-size)) 'Anton';
+    line-height: var(--page-title-height);
+
+    height: var(--page-title-height);
+
+    background-color: var(--canvas-background);
+
+    border: 2pt solid var(--border-color);
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+
+    text-align: center;
+}

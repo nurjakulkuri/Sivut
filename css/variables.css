@@ -5,5 +5,12 @@
 
     --body-font-face: 'Roboto';
 
+    --nav-hamburger-font-size: 42pt;
+    --nav-font-size: 16pt;
+    --page-title-font-size: 24pt;
+
+    --border-radius: 5px;
+
     --nav-dropdown-height: 64pt;
+    --page-title-height: 64pt;
 }
