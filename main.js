@@ -7,11 +7,6 @@ nav_hamburger.addEventListener('click', (event) => {
     nav_hamburger.classList.toggle('active');
     nav_dropdown.classList.toggle('active');
     nav_overlay.classList.toggle('active');
-    /*
-    nav_hamburger.classList.toggle('active');
-    nav_dropdown.classList.toggle('active');
-    nav_overlay.classList.toggle('active');
-    */
 });
 
 nav_overlay.addEventListener('click', () => {
