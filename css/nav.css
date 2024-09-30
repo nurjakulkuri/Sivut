@@ -37,7 +37,8 @@
     margin: 0; padding: 0;
     list-style: none;
 
-    background-color: var(--canvas-background);
+/*    background-color: var(--canvas-background); */
+    background-color: var(--nav-active-background);
 
     border: 2pt solid var(--border-color);
     border-top: 0;
@@ -56,4 +57,5 @@
     border-top: 2pt solid var(--border-color);
 }
 
+#nav-hamburger.active { background-color: var(--nav-active-background); }
 #nav-dropdown.active { display: block; }
