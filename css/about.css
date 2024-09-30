@@ -7,8 +7,8 @@
 }
 
 main {
-    margin-top: var(--about-padding);
-    padding: 0 calc(var(--about-padding)) calc(var(--about-padding) * 3) calc(var(--about-padding));
+    margin-top: var(--padding);
+    padding: 0 calc(var(--padding)) calc(var(--padding) * 3) calc(var(--padding));
 
     background-color: var(--canvas-background);
     border: 2pt solid var(--border-color);
@@ -27,8 +27,8 @@ main img {
 
 #profile { --about-img-mul: 0.6; }
 
-img.left { float: left; margin-right: calc(var(--about-padding)); }
-img.right { float: right; margin-left: calc(var(--about-padding)); }
+img.left { float: left; margin-right: calc(var(--padding)); }
+img.right { float: right; margin-left: calc(var(--padding)); }
 
 main h1 { font: bold calc(var(--about-h1-font-size)) var(--about-h1-font-face); }
 main h2 { font: normal calc(var(--about-h2-font-size)) var(--body-font-face); }
@@ -38,3 +38,8 @@ main a:link { font-weight: bold; font-size: calc(var(--about-a-size)); color: va
 main a:hover { font-size: calc(var(--about-a-size)); color: var(--about-a-hover); text-decoration: underline; }
 main a:visited { font-size: calc(var(--about-a-size)); color: var(--about-a-visited); text-decoration: overline; }
 main a:active { font-size: calc(var(--about-a-size)); color: var(--about-a-active); }
+
+@media (min-width: 680px) {
+    :root { --about-img-mul: 0.52; }
+    #profile { --about-img-mul: 0.696; }
+}
