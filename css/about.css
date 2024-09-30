@@ -1,3 +1,11 @@
+#page-title div {
+    float: top;
+    height: 1em;
+    font: bold 10pt var(--body-font-face);
+    line-height: 3.8em;
+    letter-spacing: 0;
+}
+
 main {
     margin-top: var(--about-padding);
     padding: 0 calc(var(--about-padding)) calc(var(--about-padding)) calc(var(--about-padding));

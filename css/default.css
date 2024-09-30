@@ -23,14 +23,6 @@ html, body {
     overflow: hidden;
 }
 
-#page-title div {
-    float: top;
-    height: 1em;
-    font: bold 10pt var(--body-font-face);
-    line-height: 3.8em;
-    letter-spacing: 0;
-}
-
 #social-media {
     padding: calc(var(--about-padding));
     text-align: right;
