@@ -8,42 +8,31 @@
 
 main {
     margin-top: var(--about-padding);
-    padding: 0 calc(var(--about-padding)) calc(var(--about-padding)) calc(var(--about-padding));
+    padding: 0 calc(var(--about-padding)) calc(var(--about-padding) * 3) calc(var(--about-padding));
 
     background-color: var(--canvas-background);
-
     border: 2pt solid var(--border-color);
     border-radius: var(--border-radius);
 
     overflow-y: hidden;
 }
 
-#profile {
-    --about-img-mul: 0.5;
-}
-
 main img {
+    margin-top: 2pt;
     width: calc(var(--about-img-mul) * 240px);
 
     border: 2pt solid var(--border-color);
     border-radius: var(--border-radius);
 }
 
+#profile { --about-img-mul: 0.6; }
+
 img.left { float: left; margin-right: calc(var(--about-padding)); }
 img.right { float: right; margin-left: calc(var(--about-padding)); }
 
-main h1 {
-    font: bold calc(var(--about-h1-font-size)) var(--about-h1-font-face);
-}
-
-main h2 {
-    font: normal calc(var(--about-h2-font-size)) var(--body-font-face);
-}
-
-main p {
-    font: normal calc(var(--about-font-size)) var(--body-font-face);
-    text-align: justify;
-}
+main h1 { font: bold calc(var(--about-h1-font-size)) var(--about-h1-font-face); }
+main h2 { font: normal calc(var(--about-h2-font-size)) var(--body-font-face); }
+main p { font: normal calc(var(--about-font-size)) var(--body-font-face); text-align: justify; }
 
 main a:link { font-weight: bold; font-size: calc(var(--about-a-size)); color: var(--about-a-link); text-decoration: none; }
 main a:hover { font-size: calc(var(--about-a-size)); color: var(--about-a-hover); text-decoration: underline; }
