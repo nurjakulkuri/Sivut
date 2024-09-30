@@ -1,3 +1,6 @@
+/* VP Breakpointit: 320-480, 481-767, 768-1024, 1025-1200, 1201+
+*/
+
 html, body {
     margin: 0;
     background-color: var(--main-background);
@@ -26,4 +29,17 @@ html, body {
     font: bold 10pt var(--body-font-face);
     line-height: 3.8em;
     letter-spacing: 0;
+}
+
+#social-media {
+    padding: calc(var(--about-padding));
+    text-align: right;
+}
+
+#social-media img {
+    width: 24px;
+    border: 2pt solid var(--border-color);
+    border-radius: 5px;
+
+    background-color: #fff;
 }

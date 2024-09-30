@@ -1,6 +1,6 @@
 main {
-    margin-top: 3pt;
-    padding: 0 calc(var(--about-padding)) 0 calc(var(--about-padding));
+    margin-top: var(--about-padding);
+    padding: 0 calc(var(--about-padding)) calc(var(--about-padding)) calc(var(--about-padding));
 
     background-color: var(--canvas-background);
 
