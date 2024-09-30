@@ -1,10 +1,5 @@
 @media (max-width: 519px) { /* 665 */
 
-    #main-display {
-        min-width: 300px;
-        overflow: hidden;
-    }
-
     #nav-hmenu { display: none; }
 
     #nav-hamburger-container, #nav-hamburger, #nav-dropdown { box-sizing: border-box; }
@@ -125,8 +120,4 @@
         text-align: center;
     }
 
-}
-
-@media (min-width: 680px) {
-    #main-display { max-width: 680px; margin: 0 auto 0 auto; }
 }

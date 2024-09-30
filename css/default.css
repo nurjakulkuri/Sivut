@@ -6,6 +6,13 @@ html, body {
     background-color: var(--main-background);
 }
 
+#main-display {
+    min-width: 300px;
+    max-width: 680px;
+    overflow: hidden;
+    margin: auto;
+}
+
 #page-title {
     font: normal calc(var(--page-title-font-size)) 'Anton';
     line-height: var(--page-title-height);
@@ -29,7 +36,7 @@ html, body {
 }
 
 #social-media img {
-    width: 24px;
+    max-width: 24px;
     border: 2pt solid var(--border-color);
     border-radius: 5px;
 
