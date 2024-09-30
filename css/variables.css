@@ -11,10 +11,12 @@
     --nav-font-size: 16pt;
     --nav-active-background: #f3eaba;
 
-    --page-title-font-size: 24pt;
-
     --nav-dropdown-height: 64pt;
+    --nav-dropdown-hover: #d3b065;
+
+    --page-title-font-size: 24pt;
     --page-title-height: 64pt;
+
 
     --about-padding: 0.5em;
     --about-img-mul: 0.4;

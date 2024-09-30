@@ -3,6 +3,8 @@
 #nav-hamburger-container { position: relative; }
 
 #nav-hamburger {
+    position: relative;
+    
     display: flex;
     flex-direction: column;
 
@@ -30,6 +32,8 @@
     display: none;
 
     width: 100%;
+    
+    z-index: 10;
 }
 #nav-dropdown a { text-decoration: none; }
 
@@ -57,5 +61,26 @@
     border-top: 2pt solid var(--border-color);
 }
 
+#nav-dropdown li:hover {
+    background-color: var(--nav-dropdown-hover);
+}
+
 #nav-hamburger.active { background-color: var(--nav-active-background); }
 #nav-dropdown.active { display: block; }
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: #0008;
+
+    z-index: 1;
+}
+
+#overlay.active {
+    display: block;
+}
