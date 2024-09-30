@@ -46,7 +46,7 @@
 }
 
 #nav-dropdown li {
-    font: normal calc(var(--nav-font-size)) var(--body-font-face);
+    font: bold calc(var(--nav-font-size)) var(--body-font-face);
     line-height: var(--nav-dropdown-height);
 
     height: calc(var(--nav-dropdown-height));
