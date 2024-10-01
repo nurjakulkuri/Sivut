@@ -30,9 +30,17 @@ html, body {
     overflow: hidden;
 }
 
-#page-title h1 { font-size: inherit; margin: 0; }
-#page-title h1::before { content: '[ '; }
-#page-title h1::after { content: ' ]'; }
+#page-title h1 {
+    margin: 0;
+    height: 1em;
+    font: bold 12pt var(--body-font-face);
+    line-height: 3.4em;
+    letter-spacing: 1px;
+}
+
+#page-title h2 { font-size: inherit; margin: 0; }
+#page-title h2::before { content: '[ '; }
+#page-title h2::after { content: ' ]'; }
 
 #social-media {
     padding: calc(var(--padding));
