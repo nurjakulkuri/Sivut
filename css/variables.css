@@ -24,9 +24,8 @@
     --padding: 0.5em;
     --about-img-mul: 0.4;
     --about-font-size: 14pt;
-    --about-h1-font-size: 20pt;
-    --about-h1-font-face: 'Merriweather';
-    --about-h2-font-size: calc(var(--about-font-size) * 1.05);
+    --about-h2-font-size: calc(var(--about-font-size) + 25%);
+    --about-h2-font-face: 'Merriweather';
 
     --about-a-size: calc(var(--about-font-size) * 1.1);
     --about-a-link: #96822c;
