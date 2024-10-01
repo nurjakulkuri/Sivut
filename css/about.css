@@ -1,4 +1,5 @@
-#page-title div {
+#page-title h2 {
+    margin: 0;
     height: 1em;
     font: bold 12pt var(--body-font-face);
     line-height: 3.4em;
@@ -29,7 +30,8 @@ main img {
 img.left { float: left; margin-right: calc(var(--padding)); }
 img.right { float: right; margin-left: calc(var(--padding)); }
 
-main h2 { font: bold var(--about-h2-font-size) var(--about-h2-font-face); }
+main h2 { font: bold var(--about-h2-font-size) var(--about-h2-font-face); text-align: center; }
+main h3 { margin: 1.3em 0 -0.5em 0; padding: 0; font: bold calc(var(--about-font-size) + 15%) var(--body-font-face); }
 main p { font: normal var(--about-font-size) var(--body-font-face); text-align: justify; }
 
 main a:link { font-weight: bold; font-size: calc(var(--about-a-size)); color: var(--about-a-link); text-decoration: none; }

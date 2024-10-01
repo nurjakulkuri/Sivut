@@ -14,7 +14,7 @@ html, body {
 }
 
 #page-title {
-    font: normal calc(var(--page-title-font-size)) 'Anton';
+    font: var(--page-title-font-size) 'Anton';
     line-height: var(--page-title-height);
 
     min-height: var(--page-title-height);
