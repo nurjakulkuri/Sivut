@@ -29,7 +29,7 @@ main img {
 img.left { float: left; margin-right: calc(var(--padding)); }
 img.right { float: right; margin-left: calc(var(--padding)); }
 
-main h1 { font: bold var(--about-h1-font-size) var(--about-h1-font-face); }
+main h2 { font: bold var(--about-h2-font-size) var(--about-h2-font-face); }
 main p { font: normal var(--about-font-size) var(--body-font-face); text-align: justify; }
 
 main a:link { font-weight: bold; font-size: calc(var(--about-a-size)); color: var(--about-a-link); text-decoration: none; }
