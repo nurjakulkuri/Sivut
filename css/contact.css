@@ -12,7 +12,7 @@ main {
 main h1 { font: bold var(--contact-h1-font-size) var(--contact-h1-font-face); text-align: center; }
 main h2 { margin: 1em 0; padding: 0; font: bold calc(var(--about-font-size) + 12%) var(--body-font-face); text-align: center; }
 
-#contact { display: flex; flex-wrap: wrap-reverse; }
+#contact { display: flex; flex-wrap: wrap; }
 
 #contact-info, #contact-form-container { flex: 1 0 auto; }
 

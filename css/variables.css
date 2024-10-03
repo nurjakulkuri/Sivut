@@ -33,7 +33,6 @@
     --about-a-visited: #09170b;
     --about-a-active: #dacd61;
 
-    --contact-form-item-height: 1.5em;
-    --contact-h1-font-size: var(--about-h2-font-face);
+    --contact-h1-font-size: var(--about-h2-font-size);
     --contact-h1-font-face: var(--about-h2-font-face);
 }
