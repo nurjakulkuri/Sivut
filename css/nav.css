@@ -55,7 +55,7 @@
     }
 
     #nav-dropdown li {
-        font: bold var(--nav-font-size) var(--body-font-face);
+        font: bold var(--nav-font-size) var(--font-face);
         line-height: var(--nav-dropdown-height);
 
         height: calc(var(--nav-dropdown-height));
@@ -115,7 +115,7 @@
         border: 2pt solid var(--border-color);
         border-radius: var(--border-radius);
 
-        font: normal var(--nav-hmenu-font-size) var(--body-font-face);
+        font: normal var(--nav-hmenu-font-size) var(--font-face);
         line-height: var(--nav-hmenu-height);
 
         text-align: center;

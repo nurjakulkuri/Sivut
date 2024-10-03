@@ -33,7 +33,7 @@ html, body {
 #page-title h1 {
     margin: 0;
     height: 1em;
-    font: bold 12pt var(--body-font-face);
+    font: bold 12pt var(--font-face);
     line-height: 3.4em;
     letter-spacing: 1px;
 }
