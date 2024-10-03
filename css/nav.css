@@ -81,7 +81,7 @@
     }
 }
 
-#nav-dropdown #active, #nav-hmenu #active { background-color: var(--nav-active); }
+#nav-dropdown #vmenu-active, #nav-hmenu #hmenu-active { background-color: var(--nav-active); }
 #nav-dropdown li:hover, #nav-hmenu li:hover { background-color: var(--nav-horver); }
 
 
