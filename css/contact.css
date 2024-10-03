@@ -1,6 +1,6 @@
 main {
     margin-top: var(--padding);
-    padding: 0 calc(var(--padding)) calc(var(--padding) * 3) calc(var(--padding));
+    padding: 0 var(--padding) calc(var(--padding) * 3) var(--padding);
 
     background-color: var(--canvas-background);
     border: 2pt solid var(--border-color);
@@ -9,16 +9,12 @@ main {
     overflow-y: hidden;
 }
 
-main h1 { font: bold var(--about-h2-font-size) var(--about-h2-font-face); text-align: center; }
+main h1 { font: bold var(--contact-h1-font-size) var(--contact-h1-font-face); text-align: center; }
 main h2 { margin: 1em 0; padding: 0; font: bold calc(var(--about-font-size) + 12%) var(--body-font-face); text-align: center; }
 
-#contact { display: flex; }
+#contact { display: flex; flex-wrap: wrap-reverse; }
 
-#contact-info, #contact {
-    min-width: 200px;
-    flex: 1 0 auto;
-    flex-wrap: wrap;
-}
+#contact-info, #contact-form-container { flex: 1 0 auto; }
 
 #contact-info div { text-align: center; }
 #contact-info div img {
@@ -38,20 +34,23 @@ main h2 { margin: 1em 0; padding: 0; font: bold calc(var(--about-font-size) + 12
 #contact-info a:visited { color: var(--about-a-visited); text-decoration: overline; }
 #contact-info a:active { color: var(--about-a-active); }
 
+#contact-form-container { min-width: 50%; }
+
 form {
     display: flex;
     flex-direction: column;
+
+    width: 100%;
 }
 
-main form div { flex: 1 0 auto; }
-label, input, textarea, button {
-    display: block;
-    width: calc(100% - var(--padding));
-    font: normal var(--about-font-size) var(--body-font-face);
-}
+main form div { flex: 1 0 auto; margin: 0 var(--padding); }
+
+label, input, textarea, button { display: block; }
+label, button { font: normal var(--about-font-size) var(--body-font-face); }
+input, textarea { font: normal calc(var(--about-padding) * 0.5) var(--body-font-face); }
 
 label { margin: 0 0 -0.05em 0; }
-input, textarea { margin: 0 0 0.3em 0; }
-
-input, textarea, button { border: 2pt solid var(--border-color); border-radius: calc(var(--border-radius) * 0.65) ; }
 button { width: 100%; }
+textarea { resize: none; }
+input, textarea { margin: 0 0 0.3em 0; width: calc(100% - var(--padding)); }
+input, textarea, button { border: 2pt solid var(--border-color); border-radius: calc(var(--border-radius) * 0.65) ; }
