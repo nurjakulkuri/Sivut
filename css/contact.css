@@ -1,0 +1,57 @@
+main {
+    margin-top: var(--padding);
+    padding: 0 calc(var(--padding)) calc(var(--padding) * 3) calc(var(--padding));
+
+    background-color: var(--canvas-background);
+    border: 2pt solid var(--border-color);
+    border-radius: var(--border-radius);
+
+    overflow-y: hidden;
+}
+
+main h1 { font: bold var(--about-h2-font-size) var(--about-h2-font-face); text-align: center; }
+main h2 { margin: 1em 0; padding: 0; font: bold calc(var(--about-font-size) + 12%) var(--body-font-face); text-align: center; }
+
+#contact { display: flex; }
+
+#contact-info, #contact {
+    min-width: 200px;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+}
+
+#contact-info div { text-align: center; }
+#contact-info div img {
+    margin-top: calc(var(--padding) * 3);
+    max-width: 256px;
+    width: 60%;
+
+    border: 2pt solid var(--border-color);
+    border-radius: var(--border-radius);
+}
+
+#contact-info a { font-weight: bold; font-size: calc(var(--about-a-size) * 0.9); }
+#contact-info a::before { content: '['; }
+#contact-info a::after { content: ']'; }
+#contact-info a:link { color: var(--about-a-link); }
+#contact-info a:hover { color: var(--about-a-hover); text-decoration: underline; }
+#contact-info a:visited { color: var(--about-a-visited); text-decoration: overline; }
+#contact-info a:active { color: var(--about-a-active); }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+main form div { flex: 1 0 auto; }
+label, input, textarea, button {
+    display: block;
+    width: calc(100% - var(--padding));
+    font: normal var(--about-font-size) var(--body-font-face);
+}
+
+label { margin: 0 0 -0.05em 0; }
+input, textarea { margin: 0 0 0.3em 0; }
+
+input, textarea, button { border: 2pt solid var(--border-color); border-radius: calc(var(--border-radius) * 0.65) ; }
+button { width: 100%; }
