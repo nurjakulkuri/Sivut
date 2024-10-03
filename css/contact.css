@@ -9,8 +9,8 @@ main {
     overflow-y: hidden;
 }
 
-main h1 { font: bold var(--contact-h1-font-size) var(--contact-h1-font-face); text-align: center; }
-main h2 { margin: 1em 0; padding: 0; font: bold calc(var(--about-font-size) + 12%) var(--body-font-face); text-align: center; }
+main h1 { font: bold var(--h1-font-size) var(--h1-font-face); text-align: center; }
+main h2 { margin: 1em 0; padding: 0; font: bold calc(var(--font-size) + 12%) var(--body-font-face); text-align: center; }
 
 #contact { display: flex; flex-wrap: wrap; }
 
@@ -18,7 +18,7 @@ main h2 { margin: 1em 0; padding: 0; font: bold calc(var(--about-font-size) + 12
 
 #contact-info div { text-align: center; }
 #contact-info div img {
-    margin-top: calc(var(--padding) * 3);
+    margin-top: calc(var(--padding) * 2.3);
     max-width: 256px;
     width: 60%;
 
@@ -26,13 +26,13 @@ main h2 { margin: 1em 0; padding: 0; font: bold calc(var(--about-font-size) + 12
     border-radius: var(--border-radius);
 }
 
-#contact-info a { font-weight: bold; font-size: calc(var(--about-a-size) * 0.9); }
+#contact-info a { font-weight: bold; font-size: calc(var(--a-size) * 0.9); }
 #contact-info a::before { content: '['; }
 #contact-info a::after { content: ']'; }
-#contact-info a:link { color: var(--about-a-link); }
-#contact-info a:hover { color: var(--about-a-hover); text-decoration: underline; }
-#contact-info a:visited { color: var(--about-a-visited); text-decoration: overline; }
-#contact-info a:active { color: var(--about-a-active); }
+#contact-info a:link { color: var(--a-link); }
+#contact-info a:hover { color: var(--a-hover); text-decoration: underline; }
+#contact-info a:visited { color: var(--a-visited); text-decoration: overline; }
+#contact-info a:active { color: var(--a-active); }
 
 #contact-form-container { min-width: 50%; }
 
@@ -46,7 +46,7 @@ form {
 main form div { flex: 1 0 auto; margin: 0 var(--padding); }
 
 label, input, textarea, button { display: block; }
-label, button { font: normal var(--about-font-size) var(--body-font-face); }
+label, button { font: normal var(--font-size) var(--body-font-face); }
 input, textarea { font: normal calc(var(--about-padding) * 0.5) var(--body-font-face); }
 
 label { margin: 0 0 -0.05em 0; }

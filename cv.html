@@ -67,7 +67,7 @@
     <link rel="stylesheet" type="text/css" href="css/variables.css">
     <link rel="stylesheet" type="text/css" href="css/default.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
-    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link rel="stylesheet" type="text/css" href="css/cv.css">
 
     <!-- Ladataan JavaScript vasta kun sivu on muuten ladattu  -->
     <script src="main.js" defer></script>
@@ -93,9 +93,9 @@
         <div id="nav-dropdown">
             <ul>
                 <li><a href="index.html" target="_self">Etusivu</a></li>
-                <li><a href="cv.html" target="_self">Curriculum&nbsp;vitae</a></li>
+                <li id="active"><a href="cv.html" target="_self">Curriculum&nbsp;vitae</a></li>
                 <li><a href="references.html" target="_self">Referenssit</a></li>
-                <li id="active" ><a href="contact.html" target="_self">Ota&nbsp;yhteyttä!</a></li>
+                <li><a href="contact.html" target="_self">Ota&nbsp;yhteyttä!</a></li>
             </ul>
         </div>
     </nav>
@@ -108,59 +108,17 @@
     <nav id="nav-hmenu">
         <ul>
             <li><a href="index.html" target="_self">Etusivu</a></li>
-            <li><a href="cv.html" target="_self">Curriculum&nbsp;vitae</a></li>
+            <li id="active"><a href="cv.html" target="_self">Curriculum&nbsp;vitae</a></li>
             <li><a href="references.html" target="_self">Referenssit</a></li>
-            <li id="active" ><a href="contact.html" target="_self">Ota&nbsp;yhteyttä!</a></li>
+            <li><a href="contact.html" target="_self">Ota&nbsp;yhteyttä!</a></li>
         </ul>
     </nav>
 
     <main>
         <heading>
-            <h1>Yhteydenotto</h1>
+            <h1>Curriculum&nbsp;vitae</h1>
         </heading>
-
-        <div id="contact">
-            <section id="contact-info">
-                <h2>Sakannaa yhteystiedot</h2>
-                <div>
-                    <img src="img/vcard.png" alt="Yhteystiedot vCard-muodossa QR-koodina">
-                    <p><a href="contact.vcf" download="contact.vcf">Lataa yhteystiedot</a></p>
-                </div>
-            </section>
-            <!-- Yhteydenottolomakkeen osio -->
-            <section id="contact-form-container" aria-labelledby="contact-heading">
-                <h2 id="contact-heading">Yhteydenottolomake</h2>
-
-                <!-- Itse lomake -->
-                <form id="contact-form">
-                    <!-- Nimi-kenttä -->
-                    <div>
-                        <label for="name">Nimi:</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-
-                    <!-- Sähköposti-kenttä -->
-                    <div>
-                        <label for="email">Sähköpostiosoite:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-
-                    <!-- Viesti-kenttä -->
-                    <div>
-                        <label for="message">Viesti:</label>
-                        <textarea id="message" name="message" rows="6" required></textarea>
-                    </div>
-
-                    <!-- Lähetä-painike -->
-                    <div>
-                        <button type="submit">Lähetä</button>
-                    </div>
-                </form>
-
-                <!-- Tulosviesti -->
-                <aside id="form-result" role="status"></aside>
-            </section>
-        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </main>
 
     <footer id="social-media">

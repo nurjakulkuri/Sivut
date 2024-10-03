@@ -13,6 +13,7 @@
 
     --nav-dropdown-height: 64pt;
     --nav-horver: #d3b065;
+    --nav-active: #b19c58;
 
     --nav-hmenu-height: 48pt;
     --nav-hmenu-font-size: 18pt;
@@ -23,16 +24,16 @@
 
     --padding: 0.5em;
     --about-img-mul: 0.4;
-    --about-font-size: 14pt;
-    --about-h2-font-size: calc(var(--about-font-size) + 25%);
-    --about-h2-font-face: 'Merriweather';
+    --font-size: 14pt;
+    --h2-font-size: calc(var(--font-size) + 25%);
+    --h2-font-face: 'Merriweather';
 
-    --about-a-size: calc(var(--about-font-size) * 1.1);
-    --about-a-link: #96822c;
-    --about-a-hover: #a59b3f;
-    --about-a-visited: #09170b;
-    --about-a-active: #dacd61;
+    --a-size: calc(var(--font-size) * 1.1);
+    --a-link: #96822c;
+    --a-hover: #a59b3f;
+    --a-visited: #09170b;
+    --a-active: #dacd61;
 
-    --contact-h1-font-size: var(--about-h2-font-size);
-    --contact-h1-font-face: var(--about-h2-font-face);
+    --h1-font-size: var(--h2-font-size);
+    --h1-font-face: var(--h2-font-face);
 }

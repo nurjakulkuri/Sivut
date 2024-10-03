@@ -54,3 +54,14 @@ html, body {
 
     background-color: #fff;
 }
+
+main {
+    margin-top: var(--padding);
+    padding: 0 calc(var(--padding)) calc(var(--padding) * 3) calc(var(--padding));
+
+    background-color: var(--canvas-background);
+    border: 2pt solid var(--border-color);
+    border-radius: var(--border-radius);
+
+    overflow-y: hidden;
+}
