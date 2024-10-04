@@ -41,5 +41,6 @@
     --cv-article-background: #f3edc8;
     --cv-article-border-radius: 10px;
 
-    --section-font-size: calc(var(var(--font-size) * 0.75));
+    --section-font-size: calc(var(--font-size) * 0.75);
+    --section-p-font-size: var(--section-font-size);
 }
