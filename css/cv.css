@@ -1,5 +1,4 @@
 main h1 { font: normal var(--h1-font-size) var(--h1-font-face); text-align: center; }
-main article section h2 { font: bold calc(var(--h2-font-size) * 0.75) var(--h2-font-face); }
 
 article {
     display: flex;
@@ -13,7 +12,7 @@ article {
     border-radius: var(--cv-article-border-radius);
 }
 
-article section { display: flex; flex-direction: column; }
+article div { display: flex; flex-direction: column; }
 article { font: normal var(--font-size) var(--font-face); }
 article figure {
     flex: 0 0 auto;
@@ -31,13 +30,12 @@ article figure img {
     box-sizing: border-box;
 }
 
-article > h2 { display: none; }
-article header h2 { margin: 0 0 0.08em 0; font-weight: bold; font-size: calc(var(--font-size) * 1.05); }
-article section p { margin: 0; }
-article section p.employer { font-weight: bold; font-size: var(--section-p-font-size); }
-article section p.duration { font-size: var(--section-p-font-size); }
-article section p.location { font-size: var(--section-p-font-size); margin-bottom: 0.5em; }
-article section p.dutylist { font-size: calc(var(--font-size) * 0.9); }
+main article h2 { margin: 0 0 0.08em 0; font: bold calc(var(--h2-font-size) * 0.75) var(--h2-font-face); }
+article div p { margin: 0; }
+article div p.employer { font-weight: bold; font-size: var(--section-p-font-size); }
+article div p.duration { font-size: var(--section-p-font-size); }
+article div p.location { font-size: var(--section-p-font-size); margin-bottom: 0.5em; }
+article div p.dutylist { font-size: calc(var(--font-size) * 0.9); }
 
 main > h2 { font: bold var(--h2-font-size) var(--h2-font-face); }
 main > h3 { margin-bottom: 2pt; font: bold calc(var(--font-size) * 0.85) var(--h2-font-face); letter-spacing: 0.03em;}
