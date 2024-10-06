@@ -5,7 +5,7 @@
 article {
     margin: 1em auto; padding: var(--padding);
 
-    max-width: 360px;
+    max-width: 400px;
 }
 
 article > div {
