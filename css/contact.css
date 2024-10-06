@@ -48,7 +48,7 @@ label, button { font: normal var(--font-size) var(--font-face); }
 input, textarea { font: normal calc(var(--font-size) * 0.8) var(--font-face); }
 
 label { margin: 0 0 -0.05em 0; }
-button { width: 100%; }
+button { margin: 0 auto; width: 100%; }
 textarea { resize: none; }
 input, textarea { margin: 0 0 0.3em 0; width: calc(100% - var(--padding)); }
 input, textarea, button { border: 2pt solid var(--border-color); border-radius: calc(var(--border-radius) * 0.65) ; }
