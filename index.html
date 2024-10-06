@@ -64,17 +64,18 @@
     <meta name="twitter:image:height" content="630">
 
     <!-- CSS-tyylit -->
-    <link rel="stylesheet" type="text/css" href="css/variables.css">
-    <link rel="stylesheet" type="text/css" href="css/default.css">
-    <link rel="stylesheet" type="text/css" href="css/nav.css">
-    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" type="text/css" href="css/variables.css"> <!-- globaalit muuttujat -->
+    <link rel="stylesheet" type="text/css" href="css/default.css"> <!-- yleiset muotoilut -->
+    <link rel="stylesheet" type="text/css" href="css/nav.css"> <!-- navigaation muotoilut -->
+    <link rel="stylesheet" type="text/css" href="css/about.css"> <!-- tämän sivun muotoilut -->
 
     <!-- Ladataan JavaScript vasta kun sivu on muuten ladattu  -->
     <script src="main.js" defer></script>
 
-    <noscript>
+    <!-- Jollei käyttäjällä ole JavaScript tukea (tehdään myöhemmin) -->
+    <!-- <noscript>
         <meta http-equiv="refresh" content="0; url=nojs.index.html">
-    </noscript>
+    </noscript> -->
 
     <!-- SVG kuvake skaalautuvuutta varten -->
     <!-- <link rel="alternate icon" href="img/portfolio_logo.svg" sizes="any" type="image/svg+xml"> -->
@@ -83,8 +84,10 @@
 
 <body>
 
+    <!-- Määrätään pääruudun div -->
     <div id="main-display">
 
+    <!-- Hampurilaisvalikko -->
     <nav id="nav-hamburger-container">
         <div id="overlay"></div>
 
@@ -100,11 +103,13 @@
         </div>
     </nav>
 
+    <!-- Sivuston otsikko -->
     <header id="page-title">
         <h1>Tuomas Hyötyniemi</h1>
         <h2>Portfolio</h2>
     </header>
 
+    <!-- Vaakavalikko isommille näyttölaitteille -->
     <nav id="nav-hmenu">
         <ul>
             <li id="hmenu-active"><a href="index.html" target="_self">Etusivu</a></li>
@@ -114,6 +119,7 @@
         </ul>
     </nav>
 
+    <!-- Leipäteksti -->
     <main>
         <h1>Paikka missä luovuus ja logiikka kohtaavat!</h1>
 
@@ -179,6 +185,7 @@
         mahdollisuus luoda jotain suurta!</p>
     </main>
 
+    <!-- Sosiaalisen median linkit -->
     <footer id="social-media">
         <a href="https://www.facebook.com/thyoty" target="_blank" rel="external no-referrer"><img id="facebook-logo" src="img/facebook64.png" alt="Facebook-logo" title="Facebook-profiili"></a>
         <a href="https://www.instagram.com/nurjakulkuri" target="_blank" rel="external no-referrer"><img id="instagram-logo" src="img/instagram64.png" alt="Instagram-logo" title="Instagram-profiili"></a>
@@ -187,6 +194,7 @@
         <a href="https://www.youtube.com/@nurjakulkuri" target="_blank" rel="external no-referrer"><img id="youtube-logo" src="img/youtube64.png" alt="YouTube-logo" title="YouTube-profiili"></a>
     </footer>
 
+    <!-- Suljetaan pääruudun div -->
     </div>
 
 </body>

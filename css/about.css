@@ -1,3 +1,8 @@
+/*  about.css
+    index.html sivukohtaiset muotoilut
+*/
+
+/* Profiilikuva */
 main img {
     margin-top: 2pt;
     width: calc(var(--about-img-mul) * 240px);
@@ -6,17 +11,21 @@ main img {
     border-radius: var(--border-radius);
 }
 
+/* Kuvien kokokerroin */
 #profile { --about-img-mul: 0.6; }
 
+/* Leipätekstin sijoitettujen kuvien asettelu */
 img.left { float: left; margin-right: calc(var(--padding)); }
 img.right { float: right; margin-left: calc(var(--padding)); }
 
+/* Viimeisen (yhteydenotto) kuvan kokokerroin */
 #contact { --about-img-mul: 0.4; }
 
+/* Leipäteksti */
 main p { font: normal var(--font-size) var(--font-face); text-align: justify; }
-main h1 { font: bold var(--h2-font-size) var(--h2-font-face); text-align: center; }
 main h2 { margin: 1.3em 0 -0.5em 0; padding: 0; font: bold calc(var(--font-size) + 12%) var(--font-face); }
 
+/* Linkit */
 main a { font-weight: bold; font-size: calc(var(--a-size) * 0.9); }
 main a::before { content: '['; }
 main a::after { content: ']'; }
@@ -25,6 +34,7 @@ main a:hover { color: var(--a-hover); text-decoration: underline; }
 main a:visited { color: var(--a-visited); text-decoration: overline; }
 main a:active { color: var(--a-active); }
 
+/* Isompi ruutu, isommat kuvat */ 
 @media (min-width: 680px) {
     :root { --about-img-mul: 0.52; }
     #profile { --about-img-mul: 0.696; }

@@ -1,13 +1,21 @@
+/*  variables.css
+    Muuttujat
+*/
+
 :root {
+    /* Päävärit*/
     --main-background: #bfb78c;
     --canvas-background: #dfdabe;
     --border-color: #09170b;
 
+    /* Leipäteksti */
     --font-face: 'Roboto';
     --font-size: 14pt;
 
+    /* Borderit */
     --border-radius: 5px;
 
+    /* Navigaatio */
     --nav-hamburger-font-size: 42pt;
     --nav-font-size: 16pt;
     --nav-active-background: #f3eaba;
@@ -19,12 +27,14 @@
     --nav-hmenu-height: 48pt;
     --nav-hmenu-font-size: 18pt;
 
+    /* Pääotsikko */
     --page-title-font-size: 24pt;
     --page-title-height: 64pt;
 
     --padding: 0.5em;
     --about-img-mul: 0.4;
 
+    /* Headingit */
     --h1-font-size: calc(var(--font-size) + 25%);
     --h1-font-face: 'Merriweather';
     --h2-font-size: calc(var(--font-size) + 25%);
@@ -32,12 +42,14 @@
     --h3-font-size: calc(var(--font-size) + 10%);
     --h3-font-face: 'Roboto';
 
+    /* Linkit */
     --a-size: calc(var(--font-size) * 1.1);
     --a-link: #96822c;
     --a-hover: #a59b3f;
     --a-visited: #09170b;
     --a-active: #dacd61;
 
+    /* cv.html sivukohtaiset */
     --cv-article-background: #f3edc8;
     --cv-article-border-radius: 10px;
 

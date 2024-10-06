@@ -1,4 +1,9 @@
-@media (max-width: 544px) { /* 665 */
+/*  nav.css
+    Navigaation muotoilut
+*/
+
+/* Pienemmät ruudut: hampurilaisvalikko näkyvissä, vaakavalikko piilossa */
+@media (max-width: 544px) {
 
     #nav-hmenu { display: none; }
 
@@ -84,8 +89,8 @@
 #nav-dropdown #vmenu-active, #nav-hmenu #hmenu-active { background-color: var(--nav-active); }
 #nav-dropdown li:hover, #nav-hmenu li:hover { background-color: var(--nav-horver); }
 
-
-@media (min-width: 545px) { /* 666 */
+/* Isommat ruudut: hampurilaisvalikko piiloon ja vaakavalikko näkyviin */
+@media (min-width: 545px) {
 
     #nav-hamburger-container { display: none; }
 

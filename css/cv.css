@@ -1,5 +1,8 @@
-main h1 { font: normal var(--h1-font-size) var(--h1-font-face); text-align: center; }
+/*  cv.css
+    cv.html sivukohtaiset muotoilut
+*/
 
+/* Työhistoria */
 article {
     display: flex;
     flex-direction: row;
@@ -21,6 +24,7 @@ article figure {
     margin: 0 var(--padding) 0 0;
     padding: 0;
 }
+/* Työnantajien logot */
 article figure img {
     background-color: #fff;
     max-width: 72px;
@@ -37,12 +41,14 @@ article div p.duration { font-size: var(--section-p-font-size); }
 article div p.location { font-size: var(--section-p-font-size); margin-bottom: 0.5em; }
 article div p.dutylist { font-size: calc(var(--font-size) * 0.9); }
 
+/* Otsikot */
 main > h2 { font: bold var(--h2-font-size) var(--h2-font-face); }
 main > h3 { margin-bottom: 2pt; font: bold calc(var(--font-size) * 0.85) var(--h2-font-face); letter-spacing: 0.03em;}
 main > h3::before { content: '[ '; }
 main > h3::after { content: ' ]:'; }
 main > p { margin: 0 0 0.5em 0; padding: 0;font: normal var(--font-size) var(--font-face); }
 
+/* Profiilikuva */
 main > img {
     float: right;
     margin-left: calc(var(--padding) * 2);
@@ -54,6 +60,7 @@ main > img {
     border-radius: var(--border-radius);
 }
 
+/* Kuvakoon säätö vähän pienemmille ruuduille */
 @media (max-width: 544px) {
 
     main > img {
@@ -61,6 +68,7 @@ main > img {
     }
 }
 
+/* Kuvakoon säätö vielä pienemmille ruuduille */
 @media (max-width: 490px) {
 
     main > img {
@@ -68,6 +76,7 @@ main > img {
     }
 }
 
+/* Pienet ruudut: piilotetaan profiilikuva */
 @media (max-width: 400px) {
 
     main > img {
