@@ -24,4 +24,4 @@ article h2::before { content: '[ '; }
 article h2::after { content: ' ]:'; }
 
 /* GitHub-kortti on ensimmäinen referenssi */
-article:first-of-type > div { max-height: 155px;} /* GitHub-kortin korkeus */
+article:first-of-type > div { max-height: 154px;} /* GitHub-kortin korkeus */
