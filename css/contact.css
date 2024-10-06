@@ -44,7 +44,7 @@ main form div { flex: 1 0 auto; margin: 0 var(--padding); }
 
 label, input, textarea, button { display: block; }
 label, button { font: normal var(--font-size) var(--font-face); }
-input, textarea { font: normal calc(var(--about-padding) * 0.5) var(--font-face); }
+input, textarea { font: normal calc(var(--font-size) * 0.8) var(--font-face); }
 
 label { margin: 0 0 -0.05em 0; }
 button { width: 100%; }
