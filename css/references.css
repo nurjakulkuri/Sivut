@@ -1,3 +1,27 @@
 /*  references.css
     references.html sivukohtaiset muotoilut
 */
+
+article {
+    margin: 1em auto; padding: 0;
+
+    max-width: 400px;
+}
+
+article > div {
+    background-color: var(--cv-article-background);
+
+    border: 2pt solid var(--border-color);
+    border-radius: calc(var(--border-radius) * 1.4);
+
+    box-sizing: border-box;
+}
+
+article img { width: 100%; border: 2pt solid var(--border-color); border-radius: calc(var(--border-radius) * 1.4); }
+
+article h2 { margin: 0; font: bold calc(var(--h2-font-size) * 0.65) var(--h2-font-face); }
+article h2::before { content: '[ '; }
+article h2::after { content: ' ]:'; }
+
+/* GitHub-kortti on ensimmäinen referenssi */
+article:first-of-type > div { max-height: 154px;} /* GitHub-kortin korkeus */

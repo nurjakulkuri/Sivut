@@ -3,6 +3,8 @@
 */
 
 /* Työhistoria */
+
+/* article: pääkontti */
 article {
     display: flex;
     flex-direction: row;
@@ -15,8 +17,12 @@ article {
     border-radius: var(--cv-article-border-radius);
 }
 
+/* article div: flex-kontti työpaikan yksityiskohdille */
 article div { display: flex; flex-direction: column; }
+
 article { font: normal var(--font-size) var(--font-face); }
+
+/* Yrityslogot */
 article figure {
     flex: 0 0 auto;
     align-self: center;
@@ -24,7 +30,6 @@ article figure {
     margin: 0 var(--padding) 0 0;
     padding: 0;
 }
-/* Työnantajien logot */
 article figure img {
     background-color: #fff;
     max-width: 72px;
@@ -35,6 +40,8 @@ article figure img {
 }
 
 main article h2 { margin: 0 0 0.08em 0; font: bold calc(var(--h2-font-size) * 0.75) var(--h2-font-face); }
+
+/* Työpaikkojen yksityiskohdat */
 article div p { margin: 0; text-decoration: none; }
 article div p.employer { font-weight: bold; font-size: var(--section-p-font-size); }
 article div p.duration { font-size: var(--section-p-font-size); }
