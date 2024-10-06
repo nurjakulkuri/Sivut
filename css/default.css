@@ -9,7 +9,7 @@ html, body {
 
 /* Näyttö-div:in muotoilu */
 #main-display {
-    min-width: 300px;
+    min-width: 304px;
     max-width: 680px;
     overflow: hidden;
     margin: auto;
