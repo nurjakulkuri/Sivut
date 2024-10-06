@@ -31,7 +31,7 @@ article figure img {
 }
 
 main article h2 { margin: 0 0 0.08em 0; font: bold calc(var(--h2-font-size) * 0.75) var(--h2-font-face); }
-article div p { margin: 0; }
+article div p { margin: 0; text-decoration: none; }
 article div p.employer { font-weight: bold; font-size: var(--section-p-font-size); }
 article div p.duration { font-size: var(--section-p-font-size); }
 article div p.location { font-size: var(--section-p-font-size); margin-bottom: 0.5em; }
