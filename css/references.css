@@ -9,7 +9,7 @@ article {
 }
 
 article > div {
-    background-color: var(--cv-article-background);
+    background-color: #fff;
 
     border: 2pt solid var(--border-color);
     border-radius: calc(var(--border-radius) * 1.4);
